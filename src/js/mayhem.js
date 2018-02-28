@@ -75,19 +75,19 @@ $(document).ready(function() {
             color: "#c6007d"
         }, 1200, function() {
             $(".discordTag").animate({
-                color: "#7000c6"
+                color: "#00aec6"
             }, 1200, function() {
                 $(".discordTag").animate({
-                    color: "#009ec6"
+                    color: "#00c67a"
                 }, 1200, function() {
                     $(".discordTag").animate({
-                        color: "#00c67d"
+                        color: "#c60000"
                     }, 1200, function() {
                         $(".discordTag").animate({
                             color: "#02ffc0"
                         }, 1200, function() {
                             $(".discordTag").animate({
-                                color: "#a8c600"
+                                color: "#ff0191"
                             }, 1200, function() {
                                 $(".discordTag").animate({
                                     color: "#d9ff02"
