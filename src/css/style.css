@@ -125,7 +125,7 @@ video#bgvid {
 	color: #9900ff;
 	letter-spacing: 2px;
 	left: 49.9%;
-	top: 48.4%;
+	top: 48.7%;
 	opacity: 0;
 	cursor: default;
 }
@@ -133,6 +133,7 @@ video#bgvid {
 .links {
 	font-family: "pixel" !important;
 	font-weight: bold;
+	margin-top: -18px;
 	/*letter-spacing: 2px;*/
 	font-size: 15px;
 	opacity: 0;
@@ -141,7 +142,7 @@ video#bgvid {
 .links2 {
 	font-family: "pixel" !important;
 	font-weight: bold;
-	margin-top: 0px;
+	margin-top: -6px;
 	/*letter-spacing: 2px;*/
 	font-size: 15px;
 	opacity: 0;
