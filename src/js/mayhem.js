@@ -71,6 +71,36 @@ $(document).ready(function() {
                 });
             });
         });
+        $(".discordTag").animate({
+            color: "#c6007d"
+        }, 1200, function() {
+            $(".discordTag").animate({
+                color: "#7000c6"
+            }, 1200, function() {
+                $(".discordTag").animate({
+                    color: "#009ec6"
+                }, 1200, function() {
+                    $(".discordTag").animate({
+                        color: "#00c67d"
+                    }, 1200, function() {
+                        $(".discordTag").animate({
+                            color: "#02ffc0"
+                        }, 1200, function() {
+                            $(".discordTag").animate({
+                                color: "#a8c600"
+                            }, 1200, function() {
+                                $(".discordTag").animate({
+                                    color: "#d9ff02"
+                                }, 1200, function() {
+                                    loop();
+                                    return true;
+                                });
+                            });
+                        });
+                    });
+                });
+            });
+        });
     }
     loop();
     

@@ -41,8 +41,8 @@ video#bgvid {
 
 .centered {
 	position: fixed;
-	min-width: 450.09px;
-	min-height: 104px;
+	min-width: 464.11px;
+	min-height: 122px;
 	top: 50%;
 	left: 50%;
 	-ms-transform: translateX(-50%) translateY(-50%);
@@ -125,7 +125,7 @@ video#bgvid {
 	color: #9900ff;
 	letter-spacing: 2px;
 	left: 49.9%;
-	top: 20%;
+	top: 48%;
 	opacity: 0;
 	cursor: default;
 }
@@ -133,7 +133,7 @@ video#bgvid {
 .links {
 	font-family: "pixel" !important;
 	font-weight: bold;
-	margin-top: -18px;
+	/*margin-top: -18px;*/
 	/*letter-spacing: 2px;*/
 	font-size: 15px;
 	opacity: 0;
