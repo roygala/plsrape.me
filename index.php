@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ondragstart="return false;" oncontext="return false;" onselectstart="return false;" oncontextmenu="return false;">
 
 	<head>
 		<title>Mayhem</title>
@@ -18,7 +18,7 @@
 		<![endif]-->
 	</head>
 
-	<body ondragstart="return false;" oncontext="return false;" onselectstart="return false;" oncontextmenu="return false;">
+	<body>
 		<video playsinline autoplay loop poster="./src/media/video.png" id="bgvid">
 			<source src="./src/media/8bit.mp4" type="video/mp4" />
 			<script>
