@@ -33,7 +33,7 @@ $(document).ready(function() {
             $(".links").animate({
                 opacity: 1
             }, 500, function() {
-                $("links2").animate({
+                $(".links2").animate({
                     opacity: 1
                 }, 500);
             });
