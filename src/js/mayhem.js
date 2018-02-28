@@ -95,7 +95,7 @@ $(document).ready(function() {
                                 $(".discordTag").animate({
                                     color: "#d9ff02"
                                 }, 1200, function() {
-                                    loop();
+                                    loop2();
                                     return true;
                                 });
                             });
