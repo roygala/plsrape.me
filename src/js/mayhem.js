@@ -71,6 +71,9 @@ $(document).ready(function() {
                 });
             });
         });
+    }
+    
+    function loop2() {
         $(".discordTag").animate({
             color: "#c6007d"
         }, 1200, function() {
@@ -102,7 +105,9 @@ $(document).ready(function() {
             });
         });
     }
+
     loop();
+    loop2();
     
     $("a").hover(function() {
         $(this).stop().animate({
