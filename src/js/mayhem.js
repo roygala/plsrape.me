@@ -72,22 +72,8 @@ $(document).ready(function() {
             });
         });
     }
-    
-    function loop2() {
-        $(".discordTag").animate({
-            color: "#c6007d"
-        }, 2500, function() {
-            $(".discordTag").animate({
-                color: "#00aec6"
-            }, 2500, function() {
-                loop2();
-                return true;
-            });
-        });
-    }
 
     loop();
-    loop2();
     
     $("a").hover(function() {
         $(this).stop().animate({
