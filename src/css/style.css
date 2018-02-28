@@ -137,3 +137,12 @@ video#bgvid {
 	font-size: 15px;
 	opacity: 0;
 }
+
+.links2 {
+	font-family: "pixel" !important;
+	font-weight: bold;
+	margin-top: 0px;
+	/*letter-spacing: 2px;*/
+	font-size: 15px;
+	opacity: 0;
+}

@@ -36,7 +36,7 @@
 				// DISCORD: MAYHEM#0001 <span class="dot">•</span> 
 				<a href="https://rifk7.com/forum/index.php?action=profile;u=829" target="_blank">RIFK7</a> \\
 			</div>
-			<div class="links">
+			<div class="links2">
 				// <a href="http://steamcommunity.com/profiles/76561198236628206" target="_blank">STEAM</a> <span class="dot">•</span> 
 				<a href="https://youtube.com/user/roygala" target="_blank">YOUTUBE</a> <span class="dot">•</span> 
 				<a href="#" id="downloadContainer">CONFIGS</a> <span class="dot">•</span> 
