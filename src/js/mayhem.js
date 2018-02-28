@@ -76,32 +76,12 @@ $(document).ready(function() {
     function loop2() {
         $(".discordTag").animate({
             color: "#c6007d"
-        }, 1200, function() {
+        }, 2500, function() {
             $(".discordTag").animate({
                 color: "#00aec6"
-            }, 1200, function() {
-                $(".discordTag").animate({
-                    color: "#00c67a"
-                }, 1200, function() {
-                    $(".discordTag").animate({
-                        color: "#c60000"
-                    }, 1200, function() {
-                        $(".discordTag").animate({
-                            color: "#02ffc0"
-                        }, 1200, function() {
-                            $(".discordTag").animate({
-                                color: "#ff0191"
-                            }, 1200, function() {
-                                $(".discordTag").animate({
-                                    color: "#d9ff02"
-                                }, 1200, function() {
-                                    loop2();
-                                    return true;
-                                });
-                            });
-                        });
-                    });
-                });
+            }, 2500, function() {
+                loop2();
+                return true;
             });
         });
     }
