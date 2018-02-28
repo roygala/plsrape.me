@@ -1,0 +1,139 @@
+@font-face {
+	font-family: "BlowBrush Regular";
+	src: url("../fonts/blowbrush.ttf");
+}
+
+/*@font-face {
+	font-family: "simple";
+	src: url("../fonts/simple.ttf");
+}*/
+
+@font-face {
+	font-family: "pixel";
+	src: url("../fonts/half_bold_pixel-7.ttf");
+}
+
+body {
+	background-color: #333333;
+}
+
+video {
+	display: block;
+}
+
+video#bgvid {
+	opacity: 0;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	background: url(../media/video.png) no-repeat;
+	background-size: cover;
+}
+
+.centered {
+	position: fixed;
+	min-width: 450.09px;
+	min-height: 104px;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+
+#pageInfo {
+	/*width: 540px;
+	height: 130px;*/
+	color: white;
+	cursor: default;
+	font-family: "blowbrush";
+	background: none repeat scroll 0 0;
+    color: #00c3ff;
+    /*text-shadow: 0 -1px 1px #666666, 0 1px 1px #FFFFFF;*/
+	/*text-shadow: 0 -2px 2px #FFFFFF, 0 2px 2px #666666;*/
+	text-shadow: 1px 1px #333333;
+}
+
+#pageInfo a, #pageInfo a:link, #pageInfo a:visited, #pageInfo a:hover, #pageInfo a:active {
+	position: relative;
+	color: #e5ff00;
+	text-decoration: none;
+}
+
+#download, #download:link, #download:visited {
+	color: #353535;
+	text-decoration: underline;
+}
+
+#download:hover, #download:active {
+	color: #2E79B4;
+}
+
+.dot {
+	font-size: 23px !important;
+	position: relative;
+	color: #00fff2;
+	top: 3px;
+}
+
+/*#pageInfo a:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #ff004c;
+	box-shadow: 1px 1px #333333;
+	visibility: hidden;
+	transform: scaleX(0);
+	-webkit-transform: scaleX(0);
+	transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+}
+
+#pageInfo a:hover:before {
+	visibility: visible;
+	transform: scaleX(1);
+	-webkit-transform: scaleX(1);
+}*/
+
+.mayhem {
+	font-family: "BlowBrush Regular" !important;
+	font-size: 60px;
+	color: #d9ff02;
+	position: relative;
+	width: 193px;
+	height: 72px;
+	opacity: 0;
+}
+
+.mayhemSmall {
+	position: fixed;
+	font-family: "BlowBrush Regular" !important;
+	text-shadow: 1px 1px #333333;
+	color: #9900ff;
+	letter-spacing: 2px;
+	left: 49.9%;
+	top: 50%;
+	opacity: 0;
+	cursor: default;
+}
+
+.links {
+	font-family: "pixel" !important;
+	font-weight: bold;
+	/*letter-spacing: 2px;*/
+	font-size: 15px;
+	opacity: 0;
+}
