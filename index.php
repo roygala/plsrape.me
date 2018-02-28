@@ -33,7 +33,7 @@
 		<center><div class="centered" id="pageInfo">
 			<span class="mayhem">Mayhem</span> <!--<span class="mayhemSmall">//your #1 HvH tranny</span>--><br /><br />
 			<div class="links">
-				// DISCORD: MAYHEM#0001 <span class="dot">•</span> 
+				// <span class="discord">DISCORD:</span> <span class="discordTag">MAYHEM#0001</span> <span class="dot">•</span> 
 				<a href="https://rifk7.com/forum/index.php?action=profile;u=829" target="_blank">RIFK7</a> \\
 			</div>
 			<div class="links2">
