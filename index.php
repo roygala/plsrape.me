@@ -31,7 +31,7 @@
 			</script>
 		</audio>
 		<center><div class="centered" id="pageInfo">
-			<span class="mayhem">Mayhem</span> <!--<span class="mayhemSmall">//your #1 HvH tranny</span>--><br /><br />
+			<span class="mayhem">Mayhem</span> <span class="mayhemSmall">//your #1 HvH tranny</span><br /><br />
 			<div class="links">
 				// <span class="discord">DISCORD:</span> <span class="discordTag">MAYHEM#0001</span> <span class="dot">•</span> 
 				<a href="https://rifk7.com/forum/index.php?action=profile;u=829" target="_blank">RIFK7</a> \\
@@ -43,7 +43,7 @@
 				<a href="steam://connect/5.196.142.77:27015">HVH SERVER</a> \\
 			</div>
 		</div></center>
-		<div class="mayhemSmall">//your #1 HvH tranny</div>
+		<!--<div class="mayhemSmall">//your #1 HvH tranny</div>-->
 	</body>
 
 </html>
