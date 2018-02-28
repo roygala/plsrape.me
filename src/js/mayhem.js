@@ -32,7 +32,11 @@ $(document).ready(function() {
         }, 500, function() {
             $(".links").animate({
                 opacity: 1
-            }, 500);
+            }, 500, function() {
+                $("links2").animate({
+                    opacity: 1
+                }, 500);
+            });
         });
     });
 
