@@ -21,6 +21,21 @@ $(document).ready(function() {
         opacity: 0
     }, 1000, function() {
         $("#loading").remove();
+        $(".mayhem").animate({
+            opacity: 1
+        }, 700, function () {
+            $(".mayhemSmall").animate({
+                opacity: 1
+            }, 500, function() {
+                $(".links").animate({
+                    opacity: 1
+                }, 500, function () {
+                    $(".links2").animate({
+                        opacity: 1
+                    }, 500);
+                });
+            });
+        });
     });
 
     $("video#bgvid").prop("volume", 0);
@@ -29,22 +44,6 @@ $(document).ready(function() {
     $("video#bgvid").animate({
         opacity: 0.3
     }, 3000);
-
-    $(".mayhem").animate({
-        opacity: 1
-    }, 1000, function() {
-        $(".mayhemSmall").animate({
-            opacity: 1
-        }, 500, function() {
-            $(".links").animate({
-                opacity: 1
-            }, 500, function() {
-                $(".links2").animate({
-                    opacity: 1
-                }, 500);
-            });
-        });
-    });
 
     function loop() {
         $(".mayhem").animate({
