@@ -19,7 +19,7 @@ $(document).ready(function() {
 
     $("#loading").animate({
         opacity: 0
-    }, 1000, function () {
+    }, 1000, function() {
         $("#loading").remove();
     });
 
