@@ -17,6 +17,12 @@ $(document).ready(function() {
 
     animateTitle();
 
+    $("#loading").animate({
+        opacity: 0
+    }, 1000, function () {
+        $().remove("#loading");
+    });
+
     $("video#bgvid").prop("volume", 0);
     $("audio#bgmusic").prop("volume", 0.3);
 
