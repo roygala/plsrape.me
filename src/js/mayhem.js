@@ -20,7 +20,7 @@ $(document).ready(function() {
     $("#loading").animate({
         opacity: 0
     }, 1000, function () {
-        $().remove("#loading");
+        $("#loading").remove();
     });
 
     $("video#bgvid").prop("volume", 0);
