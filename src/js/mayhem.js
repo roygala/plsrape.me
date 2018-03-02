@@ -30,9 +30,9 @@ $(document).ready(function() {
     var downloadLinks = "";
     for(var prop in downloadList) {
         if(downloadList[prop]["blank"]) {
-            downloadLinks += "<br /><a href=\"" + downloadList[prop]["link"] + "\" id=\"listItem\" target=\"_blank\"><span class=\"selectorLeft\"></span><span style=\"color:#7cff02;\">" + downloadList[prop]["number"] + "</span><span class=\"pink\">=</span>" + prop + " <span class=\"selectorRight\">X</span></a>";
+            downloadLinks += "<br /><a href=\"" + downloadList[prop]["link"] + "\" id=\"listItem\" target=\"_blank\"><span class=\"selectorLeft\"></span><span style=\"color:#7cff02;\">" + downloadList[prop]["number"] + "</span><span class=\"pink\">=</span>" + prop + " <span class=\"selectorRight\"></span></a>";
         } else {
-            downloadLinks += "<br /><a href=\"" + downloadList[prop]["link"] + "\" id=\"listItem\"><span class=\"selectorLeft\"></span><span style=\"color:#7cff02;\">" + downloadList[prop]["number"] + "</span><span class=\"pink\">=</span>" + prop + " <span class=\"selectorRight\">X</span></a>";
+            downloadLinks += "<br /><a href=\"" + downloadList[prop]["link"] + "\" id=\"listItem\"><span class=\"selectorLeft\"></span><span style=\"color:#7cff02;\">" + downloadList[prop]["number"] + "</span><span class=\"pink\">=</span>" + prop + " <span class=\"selectorRight\"></span></a>";
         }
     }
 
@@ -67,7 +67,7 @@ $(document).ready(function() {
 
     var steamLinks = "";
     for(var prop in steamProfiles) {
-        steamLinks += "<br /><a href=\"" + steamProfiles[prop]["link"] + "\" id=\"listItem\" target=\"_blank\"><span class=\"selectorLeft\"></span><span style=\"color:#7cff02;\">" + steamProfiles[prop]["number"] + "</span><span class=\"pink\">=</span>" + prop + " <span class=\"selectorRight\">X</span></a>";
+        steamLinks += "<br /><a href=\"" + steamProfiles[prop]["link"] + "\" id=\"listItem\" target=\"_blank\"><span class=\"selectorLeft\"></span><span style=\"color:#7cff02;\">" + steamProfiles[prop]["number"] + "</span><span class=\"pink\">=</span>" + prop + " <span class=\"selectorRight\"></span></a>";
     }
     
     $(".links2").html(linkListHtml);
