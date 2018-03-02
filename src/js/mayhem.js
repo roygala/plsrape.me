@@ -9,9 +9,9 @@ $(document).ready(function() {
     animateTitle();
 
     var downloadList = {
-        "Aimware NoSpread": {link: "./cheat_configs/aimware_nospread.zip", blank: false, number: 0},
-        "Aimware Spread": {link: "./cheat_configs/aimware_spread.zip", blank: false, number: 1},
-        "Mutiny Auto Config": {link: "./cheat_configs/olstore.con", blank: false, number: 2},
+        "Mutiny Auto Config": {link: "./cheat_configs/olstore.con", blank: false, number: 0},
+        "Aimware NoSpread": {link: "./cheat_configs/aimware_nospread.zip", blank: false, number: 1},
+        "Aimware Spread": {link: "./cheat_configs/aimware_spread.zip", blank: false, number: 2},
         "Zeus Configs": {link: "https://paste.plsrape.me/user.php?user=mayhem", blank: true, number: 3}
     };
 
