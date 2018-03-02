@@ -1,0 +1,42 @@
+.variable:before {
+	content: "$";
+	color: #f700ff;
+}
+
+.variable:after {
+	content: ";";
+	color: #f700ff;
+}
+
+.variableArray:before {
+	content: "$";
+	color: #f700ff;
+}
+
+.variableArray:after {
+	content: "[];";
+	color: #f700ff;
+}
+
+.variableContent {
+	color: #7cff02;
+}
+
+.variableContent:before {
+	content: '"';
+	color: #00a2ff;
+}
+
+.variableContent:after {
+	content: '"';
+	color: #00a2ff;
+}
+
+.callFunction:after {
+	content: "();";
+	color: #f700ff;
+}
+
+.equal {
+	color: #f700ff;
+}

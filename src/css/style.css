@@ -1,4 +1,5 @@
 @import "loading.css";
+@import "code.css";
 
 @font-face {
 	font-family: "BlowBrush Regular";
@@ -36,10 +37,17 @@ video#bgvid {
 	background-size: cover;
 }
 
-.centered {
+#pageInfo {
+	color: white;
+	text-align: center;
+	cursor: default;
+	font-family: "blowbrush";
+	background: none repeat scroll 0 0;
+    color: #00c3ff;
+	text-shadow: 1px 1px #333333;
 	position: fixed;
 	min-width: 464.11px;
-	min-height: 122px;
+	min-height: 250px;
 	top: 50%;
 	left: 50%;
 	-ms-transform: translateX(-50%) translateY(-50%);
@@ -48,28 +56,10 @@ video#bgvid {
 	transform: translateX(-50%) translateY(-50%);
 }
 
-#pageInfo {
-	color: white;
-	cursor: default;
-	font-family: "blowbrush";
-	background: none repeat scroll 0 0;
-    color: #00c3ff;
-	text-shadow: 1px 1px #333333;
-}
-
 #pageInfo a, #pageInfo a:link, #pageInfo a:visited, #pageInfo a:hover, #pageInfo a:active {
 	position: relative;
 	color: #e5ff00;
 	text-decoration: none;
-}
-
-#download, #download:link, #download:visited {
-	color: #353535;
-	text-decoration: underline;
-}
-
-#download:hover, #download:active {
-	color: #2E79B4;
 }
 
 .dot {
@@ -77,6 +67,20 @@ video#bgvid {
 	position: relative;
 	color: #00fff2;
 	top: 3px;
+}
+
+.selectorLeft {
+	opacity: 0;
+	right: -10px;
+	position: relative;
+	font-weight: bold;
+}
+
+.selectorRight {
+	opacity: 0;
+	left: -10px;
+	position: relative;
+	font-weight: bold;
 }
 
 .mayhem {
@@ -96,7 +100,7 @@ video#bgvid {
 	color: #9900ff;
 	letter-spacing: 2px;
 	left: 49.9%;
-	top: 48%;
+	top: 23%;
 	opacity: 0;
 	cursor: default;
 }
@@ -108,12 +112,16 @@ video#bgvid {
 	opacity: 0;
 }
 
-.links2 {
+.links2, .links3, .links4 {
 	font-family: "pixel" !important;
 	font-weight: bold;
 	margin-top: -6px;
 	font-size: 15px;
 	opacity: 0;
+}
+
+.links3, .links4 {
+	opacity: 1;
 }
 
 .discord {
@@ -122,4 +130,8 @@ video#bgvid {
 
 .discordTag {
 	color: #00aec6;
+}
+
+.pink {
+	color: #f700ff;
 }

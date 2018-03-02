@@ -4,12 +4,9 @@
 	<head>
 		<title>Mayhem</title>
 		<link rel="stylesheet" type="text/css" href="./src/css/style.css" />
-		<link rel="stylesheet" type="text/css" href="./src/css/lobibox.min.css" />
-		<link rel="stylesheet" type="text/css" href="./src/css/font-awesome.min.css" />
 		<link rel="icon" type="image/jpeg" href="./src/media/icon.jpg" />
 		<script src="./src/js/jquery-3.2.1.min.js"></script>
 		<script src="./src/js/jquery.color-2.1.2.min.js"></script>
-		<script src="./src/js/lobibox.min.js"></script>
 		<script src="./src/js/mayhem.js"></script>
 		<!--[if lt IE 9]
 		<script>
@@ -19,6 +16,7 @@
 	</head>
 
 	<body>
+		<div class="backLink"></div>
 		<div id="loading">
 			<div class="sk-cube-grid">
   				<div class="sk-cube sk-cube1"></div>
@@ -44,20 +42,22 @@
 				$("audio#bgmusic").prop("volume", 0.3);
 			</script>
 		</audio>
-		<center><div class="centered" id="pageInfo">
+		<div id="pageInfo">
 			<span class="mayhem">Mayhem</span> <span class="mayhemSmall">//your #1 HvH tranny</span><br />
 			<div class="links">
-				// <span class="discord">DISCORD:</span> <span class="discordTag">MAYHEM#0001</span> <span class="dot">•</span> 
-				<a href="https://rifk7.com/forum/index.php?action=profile;u=829" target="_blank">RIFK7</a> \\
+				<span class="selectorLeft">//</span> <span class="discord"><span class="variable">DISCORD <span class="equal">=</span> <span class="variableContent">MAYHEM#0001</span></span></span> <span class="dot">•</span> 
+				<a href="https://rifk7.com/forum/index.php?action=profile;u=829" target="_blank"><span class="callFunction">RIFK7</span></a> <span class="selectorRight">\\</span>
 			</div>
 			<div class="links2">
-				// <a href="http://steamcommunity.com/profiles/76561198236628206" target="_blank">STEAM</a> <span class="dot">•</span> 
-				<a href="https://youtube.com/user/roygala" target="_blank">YOUTUBE</a> <span class="dot">•</span> 
-				<a href="#" id="downloadContainer">CONFIGS</a> <span class="dot">•</span> 
-				<a href="steam://connect/5.196.142.77:27015">HVH SERVER</a> \\
+				
 			</div>
-		</div></center>
-		<!--<div class="mayhemSmall">//your #1 HvH tranny</div>-->
+			<div class="links3">
+				
+			</div>
+			<div class="links4">
+				
+			</div>
+		</div>
 	</body>
 
 </html>
