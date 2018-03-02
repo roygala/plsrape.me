@@ -67,7 +67,7 @@ $(document).ready(function() {
 
     var steamLinks = "";
     for(var prop in steamProfiles) {
-        steamLinks += "<br /><a href=\"" + steamProfiles[prop]["link"] + "\" id=\"listItem\" target=\"_blank\"><span class=\"selectorLeft\"></span><span style=\"color:#7cff02;\">" + steamProfiles[prop]["number"] + "</span><span class=\"pink\">=</span>" + prop + " <span class=\"selectorRight\"></span></a>";
+        steamLinks += "<br /><a href=\"" + steamProfiles[prop]["link"] + "\" id=\"listItem\" target=\"_blank\"><span class=\"selectorLeft\"></span><span style=\"color:#7cff02;\">" + steamProfiles[prop]["number"] + "</span><span class=\"pink\">=</span>" + prop + "<span class=\"selectorRight\"></span></a>";
     }
     
     $(".links2").html(linkListHtml);
