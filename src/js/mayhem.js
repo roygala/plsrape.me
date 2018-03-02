@@ -23,7 +23,7 @@ $(document).ready(function() {
 
     var steamProfiles = {
         "MAIN ACCOUNT": {link: "http://steamcommunity.com/profiles/76561198236628206", number: 0},
-        "WINGMAN": {link: "#", number: 1}
+        "WINGMAN": {link: "http://steamcommunity.com/profiles/76561198814050153", number: 1}
     };
 
     var downloadLinks = "";
