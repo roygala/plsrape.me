@@ -11,7 +11,7 @@ $(document).ready(function() {
     var json = $.getJSON("./src/configs/config.json", function(data) {
         return data;
     });
-    var config = json.responseJSON;
+    var config = json["links"];
     console.log(config);
 
     var downloadList = {
