@@ -7,6 +7,17 @@ function animateTitle() {
 
 $(document).ready(function() {
     animateTitle();
+    var config = $.ajax({
+        "async": false,
+        "global": false,
+        "url": "./src/configs/config.json",
+        "dataType": "json",
+        "success": function(data) {
+            return data;
+        }
+    });
+
+    alert(config["links"]["downloadList"][0]);
 
     var downloadList = {
         "Mutiny Auto Config": {link: "./cheat_configs/olstore.con", blank: false, number: 0},
