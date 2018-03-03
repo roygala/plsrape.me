@@ -8,9 +8,9 @@ function animateTitle() {
 $(document).ready(function() {
     animateTitle();
 
-    var config = $.getJSON("./src/configs/config.json", function() {
-        console.log(config.responseText["links"]["downloadLinks"][0]);
-    });
+    var config = $.getJSON("./src/configs/config.json");
+    config = eval("(" + json.responseText + ")");
+    console.log(config["links"]["downloadLinks"][0]);
 
     var downloadList = {
         "Mutiny Auto Config": {link: "./cheat_configs/olstore.con", blank: false, number: 0},
