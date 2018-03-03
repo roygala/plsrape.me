@@ -12,7 +12,7 @@ $(document).ready(function() {
         return data;
     });
     var config = json.responseJSON;
-    console.log(json);
+    console.log(config);
 
     var downloadList = {
         "Mutiny Auto Config": {link: "./cheat_configs/olstore.con", blank: false, number: 0},
