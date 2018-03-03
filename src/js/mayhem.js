@@ -9,7 +9,7 @@ $(document).ready(function() {
     animateTitle();
 
     var config = $.getJSON("./src/configs/config.json");
-    config = eval("(" + json.responseText + ")");
+    config = eval("(" + config.responseText + ")");
     console.log(config["links"]["downloadLinks"][0]);
 
     var downloadList = {
