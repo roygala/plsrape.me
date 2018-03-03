@@ -8,8 +8,10 @@ function animateTitle() {
 $(document).ready(function() {
     animateTitle();
 
-    var json = $.getJSON("./src/configs/config.json");
-    var config = json.responseText;
+    var json = $.getJSON("./src/configs/config.json", function(data) {
+        return data;
+    });
+    var config = json.responseJSON;
     console.log(json);
 
     var downloadList = {
