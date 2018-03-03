@@ -9,7 +9,12 @@ $(document).ready(function() {
     animateTitle();
 
     var json = $.getJSON("./src/configs/config.json", function(data) {
-        return data;
+        var test = [];
+        $.each(data, function(key, val) {
+            test.push(key);
+            test[key].push(val);
+        });
+        return test;
     });
     var config = json["links"];
     console.log(config);
