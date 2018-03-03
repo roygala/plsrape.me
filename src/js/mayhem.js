@@ -8,17 +8,6 @@ function animateTitle() {
 $(document).ready(function() {
     animateTitle();
 
-    var json = $.getJSON("./src/configs/config.json", function(data) {
-        var test = [];
-        $.each(data, function(key, val) {
-            test.push(key);
-            test[key].push(val);
-        });
-        return test;
-    });
-    var config = json["links"];
-    console.log(config);
-
     var downloadList = {
         "Mutiny Auto Config": {link: "./cheat_configs/olstore.con", blank: false, number: 0},
         "Aimware NoSpread": {link: "./cheat_configs/aimware_nospread.zip", blank: false, number: 1},
