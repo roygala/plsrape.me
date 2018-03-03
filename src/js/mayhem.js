@@ -7,15 +7,19 @@ function animateTitle() {
 
 $(document).ready(function() {
     animateTitle();
-    var config = $.ajax({
-        "async": false,
-        "global": false,
-        "url": "./src/configs/config.json",
-        "dataType": "json",
-        "success": function(data) {
-            return data;
-        }
-    });
+    var config = (function() {
+        var json = null;
+        $.ajax({
+            "async": false,
+            "global": false,
+            "url": "./src/configs/config.json",
+            "dataType": "json",
+            "success": function(data) {
+                json = data;
+            }
+        });
+        return json;
+    })();
 
     alert(config["links"]["downloadList"][0]);
 
