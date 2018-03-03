@@ -8,8 +8,8 @@ function animateTitle() {
 $(document).ready(function() {
     animateTitle();
 
-    var config = $.getJSON("./src/configs/config.json");
-    config = eval("(" + config.responseText + ")");
+    var json = $.getJSON("./src/configs/config.json");
+    var config = eval("(" + json.responseText + ")");
     console.log(config);
 
     var downloadList = {
