@@ -10,7 +10,7 @@ $(document).ready(function() {
 
     var config = $.getJSON("./src/configs/config.json");
     config = eval("(" + config.responseText + ")");
-    console.log(config["links"]["downloadLinks"][0]);
+    console.log(config);
 
     var downloadList = {
         "Mutiny Auto Config": {link: "./cheat_configs/olstore.con", blank: false, number: 0},
