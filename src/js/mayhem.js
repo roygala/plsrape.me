@@ -8,7 +8,7 @@ function animateTitle() {
 $(document).ready(function() {
     animateTitle();
 
-    var config = $.getJSON("https://plsrape.me/src/configs/config.json", function() {
+    var config = $.getJSON("./src/configs/config.json", function() {
         console.log(json);
     });
 
