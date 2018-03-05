@@ -45,7 +45,7 @@
 		<div id="pageInfo">
 			<span class="mayhem">Mayhem</span> <span class="mayhemSmall">//your #1 HvH tranny</span><br />
 			<div class="links">
-				<span class="selectorLeft">//</span> <span class="discord"><span class="variable">DISCORD <span class="equal">=</span> <span class="variableContent">MAYHEM#0001</span></span></span> <span class="dot">•</span> 
+				<span class="selectorLeft">//</span> <span class="discord"><span class="variable">DISCORD <span class="equal">=</span> <span class="variableContent">MAYHEM#9244</span></span></span> <span class="dot">•</span> 
 				<a href="https://rifk7.com/forum/index.php?action=profile;u=829" target="_blank"><span class="callFunction">RIFK7</span></a> <span class="selectorRight">\\</span>
 			</div>
 			<div class="links2">
